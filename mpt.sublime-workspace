@@ -3,22 +3,24 @@
 	{
 		"selected_items":
 		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"p",
+				"php\t<?php … ?>"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "mpt.sublime-project",
+			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 45,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 899,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -30,16 +32,32 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "inst",
+		"height": 368.0,
+		"last_filter": "git st",
 		"selected_items":
 		[
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git add ",
+				"Git: Add All"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 524.0
+		"width": 532.0
 	},
 	"console":
 	{
@@ -59,12 +77,16 @@
 	},
 	"expanded_folders":
 	[
-		"/D/xampp/htdocs/mpt"
+		"/D/xampp/htdocs/mpt",
+		"/D/xampp/htdocs/mpt/JQueryForBeginners"
 	],
 	"file_history":
 	[
-		"/C/Users/itami/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/D/xampp/htdocs/mpt/in.gitignore",
+		"/D/xampp/htdocs/mpt/mpt.sublime-project",
 		"/D/xampp/htdocs/mpt/JQueryForBeginners/index.htm",
+		"/D/xampp/htdocs/mpt/index.php",
+		"/C/Users/itami/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
 		"/C/Users/itami/AppData/Roaming/Sublime Text 3/Packages/User/medical-power-tools.sublime-project",
 		"/C/Users/itami/AppData/Roaming/Sublime Text 3/Packages/User/index.php",
 		"/C/Users/itami/AppData/Roaming/Sublime Text 3/Packages/User/GitSavvy.sublime-settings",
@@ -107,56 +129,31 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "mpt.sublime-project",
+					"file": "index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 45,
+						"buffer_size": 899,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								899,
+								899
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"git_savvy.repo_path": "D:\\xampp\\htdocs\\mpt",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -170,11 +167,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 27.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 55.0
 	},
 	"layout":
 	{
@@ -203,11 +200,19 @@
 	{
 		"height": 0.0
 	},
+	"output.git":
+	{
+		"height": 92.0
+	},
+	"output.git-init":
+	{
+		"height": 122.0
+	},
 	"pinned_build_system": "",
 	"project": "mpt.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -249,7 +254,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 190.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
