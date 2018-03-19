@@ -27,7 +27,7 @@ $(document).ready(function(){
 //Vùng viết mã Jquery
 jwerty.key('enter', function () { 
 
-alert('enter nhé tao ko sợ');
+alert('enter nhé tao ko sợ nữa');
  });
 
 $('.p').click(function(){
