@@ -1,4 +1,4 @@
-# a comment - dòng này được bỏ qua
+﻿# a comment - dòng này được bỏ qua
 # không theo dõi tập tin có đuôi .a ->*.a
 
 # nhưng theo dõi tập lib.a, mặc dù bạn đang bỏ qua tất cả tập tin .a ở trên->!lib.a
@@ -11,3 +11,4 @@
 
 # bỏ qua tất cả tập .txt trong thư mục doc/ ->doc/**/*.txt
 assets/
+*.sublime-workspace
