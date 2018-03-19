@@ -16,10 +16,29 @@
 	"buffers":
 	[
 		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Local:    master D:\\xampp\\htdocs\\mpt\nHead:     0ccb1c0 cm lan 4\n\n\nNothing to commit (working directory clean)\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+			"settings":
+			{
+				"buffer_size": 871,
+				"line_ending": "Windows",
+				"name": "*git-status*: mpt",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 899,
+				"buffer_size": 904,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -41,12 +60,24 @@
 				"Git: Status"
 			],
 			[
-				"in",
-				"Package Control: Install Package"
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git add.",
+				"Git: Add..."
+			],
+			[
+				"git sta",
+				"Git: Status"
 			],
 			[
 				"git status",
-				"Git: Status"
+				"GitStatus: Unmerged files"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
 			],
 			[
 				"git add ",
@@ -57,7 +88,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 532.0
+		"width": 428.0
 	},
 	"console":
 	{
@@ -82,10 +113,10 @@
 	],
 	"file_history":
 	[
+		"/D/xampp/htdocs/mpt/index.php",
+		"/D/xampp/htdocs/mpt/JQueryForBeginners/index.htm",
 		"/D/xampp/htdocs/mpt/in.gitignore",
 		"/D/xampp/htdocs/mpt/mpt.sublime-project",
-		"/D/xampp/htdocs/mpt/JQueryForBeginners/index.htm",
-		"/D/xampp/htdocs/mpt/index.php",
 		"/C/Users/itami/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
 		"/C/Users/itami/AppData/Roaming/Sublime Text 3/Packages/User/medical-power-tools.sublime-project",
 		"/C/Users/itami/AppData/Roaming/Sublime Text 3/Packages/User/index.php",
@@ -129,24 +160,85 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 899,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								899,
-								899
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 871,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"__vi_external_disable": true,
+							"draw_white_space": "none",
+							"git_repo": "D:\\xampp\\htdocs\\mpt",
+							"git_status": true,
+							"git_view": "status",
+							"syntax": "Packages/SublimeGit/syntax/SublimeGit Status.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -156,10 +248,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 126.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -204,7 +296,15 @@
 	{
 		"height": 92.0
 	},
+	"output.git-commit":
+	{
+		"height": 122.0
+	},
 	"output.git-init":
+	{
+		"height": 122.0
+	},
+	"output.git-remote":
 	{
 		"height": 122.0
 	},
