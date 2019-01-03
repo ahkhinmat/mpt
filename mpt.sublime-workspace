@@ -16,29 +16,10 @@
 	"buffers":
 	[
 		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Local:    master D:\\xampp\\htdocs\\mpt\nHead:     0ccb1c0 cm lan 4\n\n\nNothing to commit (working directory clean)\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
-			"settings":
-			{
-				"buffer_size": 871,
-				"line_ending": "Windows",
-				"name": "*git-status*: mpt",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 904,
+				"buffer_size": 933,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -51,10 +32,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 368.0,
-		"last_filter": "git st",
+		"height": 58.0,
+		"last_filter": "git status",
 		"selected_items":
 		[
+			[
+				"git status",
+				"GitStatus: Changed files"
+			],
 			[
 				"git st",
 				"Git: Status"
@@ -72,10 +57,6 @@
 				"Git: Status"
 			],
 			[
-				"git status",
-				"GitStatus: Unmerged files"
-			],
-			[
 				"in",
 				"Package Control: Install Package"
 			],
@@ -88,7 +69,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 428.0
+		"width": 532.0
 	},
 	"console":
 	{
@@ -160,85 +141,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 871,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								66,
-								66
-							]
-						],
-						"settings":
-						{
-							"__vi_external_disable": true,
-							"draw_white_space": "none",
-							"git_repo": "D:\\xampp\\htdocs\\mpt",
-							"git_status": true,
-							"git_view": "status",
-							"syntax": "Packages/SublimeGit/syntax/SublimeGit Status.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 904,
+						"buffer_size": 933,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								443,
+								474
 							]
 						],
 						"settings":
@@ -248,10 +168,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 126.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
